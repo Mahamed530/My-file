@@ -1,0 +1,168 @@
+
+Kali Linux Basic Commands and Descriptions
+==========================================
+
+1. Navigation and File Management:
+-----------------------------------
+
+- pwd
+  Description: Prints the current working directory.
+
+- ls
+  Description: Lists files and directories in the current directory.
+
+- cd [directory]
+  Description: Changes the current directory to the specified one.
+
+- mkdir [directory_name]
+  Description: Creates a new directory with the specified name.
+
+- rmdir [directory_name]
+  Description: Removes an empty directory.
+
+- rm [file_name]
+  Description: Removes a file or directory (use with caution).
+
+- cp [source] [destination]
+  Description: Copies files or directories from source to destination.
+
+- mv [source] [destination]
+  Description: Moves or renames files or directories.
+
+- touch [file_name]
+  Description: Creates a new empty file or updates the timestamp of an existing file.
+
+2. File Viewing and Editing:
+-----------------------------
+
+- cat [file_name]
+  Description: Concatenates and displays the content of a file.
+
+- more [file_name]
+  Description: Displays the content of a file, one screen at a time.
+
+- less [file_name]
+  Description: Similar to 'more', but allows backward movement in the file.
+
+- nano [file_name]
+  Description: Opens a text editor to edit files directly in the terminal.
+
+- head [file_name]
+  Description: Displays the first 10 lines of a file.
+
+- tail [file_name]
+  Description: Displays the last 10 lines of a file.
+
+3. System Information:
+------------------------
+
+- uname -a
+  Description: Displays detailed information about the system.
+
+- whoami
+  Description: Prints the current logged-in user.
+
+- ps
+  Description: Lists all running processes.
+
+- top
+  Description: Displays real-time system resource usage and running processes.
+
+- df -h
+  Description: Shows disk space usage in a human-readable format.
+
+- free -m
+  Description: Displays memory usage in megabytes.
+
+4. Networking:
+---------------
+
+- ifconfig
+  Description: Displays network interface configuration information.
+
+- ping [host]
+  Description: Sends ICMP echo requests to test connectivity with a host.
+
+- netstat -tuln
+  Description: Shows active network connections and listening ports.
+
+- nmap [host]
+  Description: Scans the specified host for open ports and services.
+
+- ssh [user]@[host]
+  Description: Connects to a remote host via SSH.
+
+- scp [file] [user]@[host]:[path]
+  Description: Copies files to/from a remote host using SSH.
+
+5. Package Management:
+-----------------------
+
+- apt-get update
+  Description: Updates the package list to ensure you have the latest information.
+
+- apt-get upgrade
+  Description: Upgrades all installed packages to the latest version.
+
+- apt-get install [package_name]
+  Description: Installs a new package.
+
+- apt-get remove [package_name]
+  Description: Removes an installed package.
+
+- apt-get autoremove
+  Description: Removes unnecessary packages that were installed as dependencies.
+
+6. Permissions and Ownership:
+------------------------------
+
+- chmod [permissions] [file_name]
+  Description: Changes the file permissions.
+
+- chown [user]:[group] [file_name]
+  Description: Changes the ownership of a file.
+
+- sudo [command]
+  Description: Executes a command as the superuser or another user.
+
+7. Compression and Archiving:
+------------------------------
+
+- tar -cvf [archive_name].tar [file_or_directory]
+  Description: Creates a tar archive from files or directories.
+
+- tar -xvf [archive_name].tar
+  Description: Extracts files from a tar archive.
+
+- gzip [file_name]
+  Description: Compresses a file using gzip.
+
+- gunzip [file_name].gz
+  Description: Decompresses a gzip-compressed file.
+
+8. Searching and Finding Files:
+-------------------------------
+
+- find [directory] -name [file_name]
+  Description: Searches for files by name in a directory.
+
+- grep [pattern] [file]
+  Description: Searches for a pattern in a file.
+
+- locate [file_name]
+  Description: Finds the location of a file quickly.
+
+9. Miscellaneous:
+------------------
+
+- history
+  Description: Shows the history of executed commands.
+
+- clear
+  Description: Clears the terminal screen.
+
+- exit
+  Description: Exits the current terminal session.
+
+- man [command]
+  Description: Displays the manual page for a command.
